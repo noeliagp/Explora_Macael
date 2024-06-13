@@ -1,0 +1,77 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.card-header {
+    background-color: #343a40;
+    color: white;
+    padding: 10px 20px;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+.table {
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.table th, .table td {
+    vertical-align: middle;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.table img {
+    width: 100px; /* Ancho fijo para las imágenes */
+    height: 100px; /* Alto fijo para las imágenes */
+    object-fit: cover; /* Ajuste de la imagen */
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #F7931E; /* Color del logo */
+    border-color: #F7931E;
+}
+
+.btn-primary:hover {
+    background-color: #D97817; /* Color oscuro del logo */
+    border-color: #D97817;
+}
+
+.btn-warning {
+    color: #fff;
+    background-color: #FFCC00; /* Color secundario del logo */
+    border-color: #FFCC00;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #E53A40; /* Color del logo */
+    border-color: #E53A40;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header h2 {
+    margin: 0;
+}
+
+.btn {
+    margin-bottom: 5px;
+}
+
+.table th, .table td {
+    max-width: 150px; /* Limita el ancho de las celdas */
+}
+
+.table td .btn {
+    display: block;
+    margin: 0.5em 0;
+}

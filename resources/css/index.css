@@ -1,0 +1,36 @@
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.hero-section {
+    position: relative;
+    text-align: center;
+    color: white;
+    min-height: 100vh;
+}
+
+.hero-section .dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.feature-box {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.feature-box:hover {
+    transform: translateY(-10px);
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
