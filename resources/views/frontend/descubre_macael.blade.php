@@ -1,5 +1,4 @@
 @extends('layouts.master')
-index.p
 @section('cuerpo')
 <div class="container mt-5 mb-5">
     <div class="row justify-content-center">
@@ -8,7 +7,7 @@ index.p
         </div>
     </div>
 
-<!--
+
     <div class="row mt-5">
         <div class="col-md-12 ">
           <h2 class="display-5 mt-1 text-center">Historia sobre Macael</h2>
@@ -149,5 +148,5 @@ Macael se vestirá de época, volviendo al periodo comprendido entre 1919 y 1947
       </div>
   </div>
 </div>
-</div>-->
+</div>
 @endsection

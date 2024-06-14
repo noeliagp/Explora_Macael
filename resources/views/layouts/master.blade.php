@@ -6,8 +6,7 @@
     <title>Explora Macael</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="stylesheets/css/backend.css" type="text/css">
-
+    @vite(['resources/css/index.css'])
 
   </head>
   <body class="d-flex flex-column vh-100" >
@@ -56,15 +55,25 @@
           <div class="col-md-4 mb-3">
             <h5 class="fw-bold fs-5">Contacto</h5>
             <ul class="list-unstyled">
-              <li class="fs-6 ">Dirección: Calle Aprobado 123, Macael</li>
+              <li class="fs-6 ">Dirección: Calle García Lorca, 50, 04867 Macael,Almería</li>
               <li class="fs-6">Email: <a href="mailto:info@macaelexplora.com">info@macaelexplora.com</a></li>
-              <li class="fs-6">Teléfono: <a href="tel:+34123456789">+34 123 456 789</a></li>
+              <li class="fs-6">Teléfono: <a href="tel:+34950128916">+34 950 12 89 16</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4 mb-3">
+            <h5 class="fw-bold fs-5">Horario</h5>
+            <ul class="list-unstyled">
+              <li class="fs-6 ">Abierto de <strong>Martes a Domingo. Incluido festivos</strong> </li>
+              <li class="fs-6">(Domingo y Lunes por la tarde cerrado.) </li>
+              <li class="fs-6 ">Mayo – Octubre: 10:00 a 14:00 y de 18:00 a 20:00. </li>
+              <li class="fs-6 ">Noviembre – Abril: 10:00 a 14:00 y de 17:00 a 19:00.</li>
             </ul>
           </div>
           <div class="col-md-4 mb-3">
             <h5 class="fw-bold fs-5">Enlaces Rápidos</h5>
             <ul class="list-unstyled">
               <li class="fs-6 "><a href="/" class="text-dark" style="text-decoration: none;">Inicio</a></li>
+              <li class="fs-6 "><a href="/descubre_macael" class="text-dark" style="text-decoration: none;">Descubre Macael</a></li>
               <li class="fs-6 "><a href="/que_ver" class="text-dark" style="text-decoration: none;">Qué Ver</a></li>
               <li class="fs-6"><a href="/que_hacer" class="text-dark" style="text-decoration: none;">Qué Hacer</a></li>
               <li class="fs-6 "><a href="/organiza_tu_viaje" class="text-dark" style="text-decoration: none;">Organiza tu Viaje</a></li>
@@ -73,14 +82,14 @@
           <div class="col-md-4 mb-3">
             <h5 class="fw-bold fs-5">Síguenos</h5>
             <ul class="list-unstyled">
-              <li class="fs-6 "><a href="#" class="text-dark" style="text-decoration: none;">Facebook</a></li>
-              <li class="fs-6 "><a href="#" class="text-dark" style="text-decoration: none;">Instagram</a></li>
-              <li class="fs-6 "><a href="#" class="text-dark" style="text-decoration: none;">Twitter</a></li>
+              <li class="fs-6 "><a href="https://www.facebook.com/turismomacael/?fref=ts" class="text-dark" style="text-decoration: none;">Facebook</a></li>
+              <li class="fs-6 "><a href="https://www.instagram.com/macaelturismo/" class="text-dark" style="text-decoration: none;">Instagram</a></li>
+              <li class="fs-6 "><a href="https://x.com/i/flow/login?redirect_after_login=%2Fmacaelturismo" class="text-dark" style="text-decoration: none;">Twitter</a></li>
             </ul>
           </div>
         </div>
         <div class="text-center fs-4 fw-bold">
-          &copy; 2024 Macael - Todos los derechos reservados
+          &copy; 2024 Explora Macael - Todos los derechos reservados
         </div>
       </div>
     </footer>
