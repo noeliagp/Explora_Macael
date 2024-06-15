@@ -38,7 +38,7 @@
                             <p class="card-text">{!! nl2br(e($Alojamiento->descripcion)) !!}</p>
                         </div>
                     </div>
-                    <
+                    
                     <div class="d-flex justify-content-center mt-2 mb-2">
                         {!! $Alojamiento->ubicacion !!}
                     </div>

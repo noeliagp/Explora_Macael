@@ -1,15 +1,18 @@
-
-*{
+* {
     font-family: 'Nunito';
-}body {
+}
+
+body {
     background-color: #f49d4579;
+    
 }
 
 .index-section,
 .monumentos-section {
+    padding-top: 80px;
     position: relative;
     text-align: center;
-    color: white;
+    color: rgb(255, 255, 255);
     min-height: 100vh;
 }
 
@@ -41,7 +44,6 @@
     height: auto;
     border-radius: 15px;
 }
-
 
 .cardMonument {
     border: none;
@@ -114,18 +116,45 @@
 
 .bg-light {
     background-color: #bed4e2 !important;
-    
 }
-.nav-link{
-    color:#01232c;
-    
-}
-.nav-link :hover{
-    color:#ffffff;
-    background-color: #01232c;
-    border: none;
-    padding: 10px 20px;
-    font-size: 1rem;
-    border-radius: 5px;
 
+.navbar {
+    border-bottom: 4px solid #f49c45 ; 
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
 }
+
+.nav-link {
+    color: #01232c;
+    position: relative;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #f49d45; 
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: #f49d45;
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-in-out;
+}
+
+.nav-link:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.navbar-nav .nav-item {
+    margin-right: 15px;
+}
+
+

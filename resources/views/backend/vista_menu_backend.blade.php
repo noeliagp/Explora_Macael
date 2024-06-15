@@ -9,36 +9,40 @@
     <title>Backend Explora Macael</title>
 </head>
 <body>
-    <h1>Bienvenido al backend de Explora Macael</h1> 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    
+    <h1> <a class="navbar-brand" href="/backend"> <img src="https://i.ibb.co/5KDnCSF/logo-explora-macael.png" alt="logo-explora-macael" class="logo" height="150px"></a>Bienvenido al backend de Explora Macael</h1> 
+    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
         <div class="container-fluid">
-            <a class="navbar-brand" href="/backend">Menu Backend</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarNavDropdown" >
+            <ul class="navbar-nav">
+              <li class="nav-item me-3">
+              <a href="/backend/monumento" class="btn btn-primary">Gestión Monumentos</a> 
+              </li>
+              <li class="nav-item me-3">
+                <a href="/backend/hosteleria" class="btn btn-primary">Gestión Hostelería </a>
+              </li>
+              <li class="nav-item me-3">
+                <a href="/backend/alojamiento" class="btn btn-primary">Gestión Alojamiento</a>
+              </li>
+              <li class="nav-item dropdown me-3">
+                <a href="/backend/actividad" class="btn btn-primary"> Gestión Actividades</a> 
+              </li>
+            </ul>
+            <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+              @csrf
+            </form>
+            <button onclick="document.getElementById('logout-form').submit();" class="btn btn-danger">
+              Cerrar sesión
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="/backend/monumento">Gestión Monumentos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/backend/hosteleria">Gestión Hostelería</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/backend/alojamiento">Gestión Alojamiento</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/backend/actividad">Gestión Actividades</a>
-                    </li>
-                </ul>
-                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                    @csrf
-                </form>
-                <button onclick="document.getElementById('logout-form').submit();" class="btn btn-danger">
-                    Cerrar sesión
-                </button>
-            </div>
+          </div>
         </div>
     </nav>
+    <div>
+        <h2>Acciones que puede realizar en este admin panel</h2>
+        
+    </div>
 </body>
 </html>

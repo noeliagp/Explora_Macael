@@ -6,18 +6,17 @@
     <title>Explora Macael</title>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link href="{{ asset('css/backend.css') }}" rel="stylesheet"> 
+    @vite(['resources/css/backend.css'])
 </head>
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary ">
         <div class="container-fluid">
-          <a class="navbar-brand" href="/backend">Menu Backend de Explora Macael </a>
+          <a class="navbar-brand" href="/backend"> <img src="https://i.ibb.co/5KDnCSF/logo-explora-macael.png" alt="logo-explora-macael" class="logo" height="150px"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse " id="navbarNavDropdown" >
             <ul class="navbar-nav">
-              
               <li class="nav-item me-3">
               <a href="/backend/monumento" class="btn btn-primary">Gestión Monumentos</a> 
               </li>
@@ -33,10 +32,10 @@
             </ul>
             <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
               @csrf
-          </form>
-          <button onclick="document.getElementById('logout-form').submit();" class="btn btn-danger">
+            </form>
+            <button onclick="document.getElementById('logout-form').submit();" class="btn btn-danger">
               Cerrar sesión
-          </button>
+            </button>
           </div>
         </div>
     </nav>
