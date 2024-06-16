@@ -1,89 +1,78 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome to Firebase Hosting</title>
+@extends('layouts.master')
 
-    <!-- update the version number as needed -->
-    <script defer src="/__/firebase/10.12.2/firebase-app-compat.js"></script>
-    <!-- include only the Firebase features as you need -->
-    <script defer src="/__/firebase/10.12.2/firebase-auth-compat.js"></script>
-    <script defer src="/__/firebase/10.12.2/firebase-database-compat.js"></script>
-    <script defer src="/__/firebase/10.12.2/firebase-firestore-compat.js"></script>
-    <script defer src="/__/firebase/10.12.2/firebase-functions-compat.js"></script>
-    <script defer src="/__/firebase/10.12.2/firebase-messaging-compat.js"></script>
-    <script defer src="/__/firebase/10.12.2/firebase-storage-compat.js"></script>
-    <script defer src="/__/firebase/10.12.2/firebase-analytics-compat.js"></script>
-    <script defer src="/__/firebase/10.12.2/firebase-remote-config-compat.js"></script>
-    <script defer src="/__/firebase/10.12.2/firebase-performance-compat.js"></script>
-    <!-- 
-      initialize the SDK after all desired features are loaded, set useEmulator to false
-      to avoid connecting the SDK to running emulators.
-    -->
-    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
-
-    <style media="screen">
-      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
-      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
-      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
-      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
-      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
-      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
-      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
-      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
-      @media (max-width: 600px) {
-        body, #message { margin-top: 0; background: white; box-shadow: none; }
-        body { border-top: 16px solid #ffa100; }
-      }
-    </style>
-  </head>
-  <body>
-    <div id="message">
-      <h2>Welcome</h2>
-      <h1>Firebase Hosting Setup Complete</h1>
-      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
-      <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
+@section('cuerpo')
+<div class="container-fluid p-0">
+    <div class="index-section text-white text-center" style="background-image: url('https://i.ibb.co/X4y4br0/image.png'); background-size: cover; background-position: center;">
+        <div class="dark-overlay"></div>
+        <div class="container d-flex align-items-center justify-content-center" style="min-height: 100vh;">
+            <div>
+                <h1 class="display-4">Explora Macael</h1>
+                <p class="lead">Descubre la tierra del Mármol</p>
+                <a href="/descubre_macael" class="btn btn-lg btn-primary mt-6">Descubre Más</a>
+            </div>
+        </div>
     </div>
-    <p id="load">Firebase SDK Loading&hellip;</p>
 
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        const loadEl = document.querySelector('#load');
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-        // // The Firebase SDK is initialized and available here!
-        //
-        // firebase.auth().onAuthStateChanged(user => { });
-        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
-        // firebase.firestore().doc('/foo/bar').get().then(() => { });
-        // firebase.functions().httpsCallable('yourFunction')().then(() => { });
-        // firebase.messaging().requestPermission().then(() => { });
-        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
-        // firebase.analytics(); // call to activate
-        // firebase.analytics().logEvent('tutorial_completed');
-        // firebase.performance(); // call to activate
-        //
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <h2 class="display-5">Turismo en Macael</h2>
+                    <p class="lead">El turismo en Macael se centra en su rica historia y tradición ligada al mármol, una piedra que ha sido el pilar de su cultura y economía durante siglos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        try {
-          let app = firebase.app();
-          let features = [
-            'auth', 
-            'database', 
-            'firestore',
-            'functions',
-            'messaging', 
-            'storage', 
-            'analytics', 
-            'remoteConfig',
-            'performance',
-          ].filter(feature => typeof app[feature] === 'function');
-          loadEl.textContent = `Firebase SDK loaded with ${features.join(', ')}`;
-        } catch (e) {
-          console.error(e);
-          loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
-        }
-      });
-    </script>
-  </body>
-</html>
+    <section id="features" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <div class="feature-box p-4">
+                        <a href="/descubre_macael">
+                            <img src="https://i.ibb.co/dgFqVXg/hornazo-1-2.jpg" class="img-fluid rounded-circle mb-3" alt="Fiestas y Tradiciones" style="width: 150px;">
+                        </a>
+                        <h4>Gastronomía</h4>
+                        <p>Disfruta de la auténtica gastronomía de Macael, desde migas tradicionales hasta postres únicos.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="feature-box p-4">
+                        <img src="https://i.ibb.co/Hg8DLrX/34911170116-24aa3e267a-q.jpg" class="img-fluid rounded-circle mb-3" alt="Fiestas y Tradiciones" style="width: 150px;">
+                        <h4>Fiestas y Tradiciones</h4>
+                        <p>Participa en las festividades locales y experimenta la cultura vibrante de Macael.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="feature-box p-4">
+                        <img src="https://i.ibb.co/2888XgL/13983175382-e20856dac0-q.jpg" class="img-fluid rounded-circle mb-3" alt="Naturaleza" style="width: 150px;">
+                        <h4>Naturaleza</h4>
+                        <p>Explora los paisajes naturales y senderos, perfectos para aventuras al aire libre.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="py-5">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-12 mb-4">
+                    <h2 class="display-5">Galería</h2>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <a href="/descubre_macael">
+                        <img src="https://i.ibb.co/0G5rsPf/fuente-leones-noche.jpg" class="img-fluid rounded" alt="Galería 1">
+                    </a>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="https://i.ibb.co/fph45BH/mortero.jpg" class="img-fluid rounded" alt="Galería 2">
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="https://i.ibb.co/68n3Pwh/foto-marmoris-macael-plazaalmeria-01.jpg" class="img-fluid rounded" alt="Galería 3">
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+@endsection

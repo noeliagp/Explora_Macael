@@ -1,0 +1,43 @@
+[debug] [2024-06-16T17:29:16.883Z] ----------------------------------------------------------------------
+[debug] [2024-06-16T17:29:16.885Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\noelia\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2024-06-16T17:29:16.885Z] CLI Version:   13.11.2
+[debug] [2024-06-16T17:29:16.885Z] Platform:      win32
+[debug] [2024-06-16T17:29:16.885Z] Node Version:  v20.14.0
+[debug] [2024-06-16T17:29:16.885Z] Time:          Sun Jun 16 2024 19:29:16 GMT+0200 (hora de verano de Europa central)
+[debug] [2024-06-16T17:29:16.886Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-06-16T17:29:16.978Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-06-16T17:29:16.978Z] > authorizing via signed-in user (noeliadelcarmengonzalezpardo@gmail.com)
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[debug] [2024-06-16T17:29:16.988Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-06-16T17:29:16.988Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-06-16T17:29:16.988Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2024-06-16T17:29:16.992Z] [hub] writing locator at C:\Users\noelia\AppData\Local\Temp\hub-exploramacael.json
+[debug] [2024-06-16T17:29:17.006Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/exploramacael/sites 
+[debug] [2024-06-16T17:29:18.279Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/exploramacael/sites 200
+[debug] [2024-06-16T17:29:18.279Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/exploramacael/sites {"sites":[{"name":"projects/exploramacael/sites/exploramacael","defaultUrl":"https://exploramacael.web.app","appId":"1:309043401431:web:dad22167581ab490979692","type":"DEFAULT_SITE"}]}
+[debug] [2024-06-16T17:29:18.279Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/exploramacael/webApps/1:309043401431:web:dad22167581ab490979692/config [none]
+[debug] [2024-06-16T17:29:19.085Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/exploramacael/webApps/1:309043401431:web:dad22167581ab490979692/config 200
+[debug] [2024-06-16T17:29:19.085Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/exploramacael/webApps/1:309043401431:web:dad22167581ab490979692/config {"projectId":"exploramacael","appId":"1:309043401431:web:dad22167581ab490979692","storageBucket":"exploramacael.appspot.com","apiKey":"AIzaSyAyAvUnTK5T0VubaDPiYTJ4Aoa8hpfeRpc","authDomain":"exploramacael.firebaseapp.com","messagingSenderId":"309043401431","measurementId":"G-EF2JX2SELG"}
+[debug] [2024-06-16T17:29:19.100Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/exploramacael [none]
+[debug] [2024-06-16T17:29:19.298Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/exploramacael 200
+[debug] [2024-06-16T17:29:19.298Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/exploramacael {"projectId":"exploramacael","projectNumber":"309043401431","displayName":"ExploraMacael","name":"projects/exploramacael","resources":{"hostingSite":"exploramacael"},"state":"ACTIVE","etag":"1_c9fc79b8-3421-45cf-aa31-f6a8ef4dca74"}
+[info] i  hosting[exploramacael]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting[exploramacael]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[warn] !  emulators: The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+└─────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┐
+│ Emulator │ Host:Port      │
+├──────────┼────────────────┤
+│ Hosting  │ 127.0.0.1:5000 │
+└──────────┴────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[info] i  hosting: 127.0.0.1 - - [16/Jun/2024:17:29:30 +0000] "GET / HTTP/1.1" 200 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [16/Jun/2024:17:29:30 +0000] \"GET / HTTP/1.1\" 200 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36\""}}
