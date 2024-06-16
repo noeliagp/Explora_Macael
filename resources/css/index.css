@@ -4,125 +4,57 @@
 
 body {
     background-color: #f49d4579;
-    
-}
-
-.index-section,
-.monumentos-section {
-    padding-top: 80px;
-    position: relative;
-    text-align: center;
-    color: rgb(255, 255, 255);
-    min-height: 100vh;
-}
-
-.index-section .dark-overlay,
-.monumentos-section .dark-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: hsla(0, 0%, 0%, 0.1);
-}
-
-.feature-box {
-    background-color: white;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s;
-    padding: 20px;
-    text-align: center;
-}
-
-.feature-box:hover {
-    transform: translateY(-10px);
-}
-
-.gallery img {
-    width: 100%;
-    height: auto;
-    border-radius: 15px;
-}
-
-.cardMonument {
-    border: none;
-    border-radius: 15px;
-    transition: transform 0.3s;
-}
-
-.cardMonument:hover {
-    transform: scale(1.05);
-}
-
-.cardMonument-img-top {
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    height: 200px;
-}
-
-.cardMonument-title {
-    font-size: 1.5rem;
-    margin-bottom: 0.5rem;
-}
-
-.cardMonument-text {
-    font-size: 1rem;
-    color: #6c757d;
-}
-
-.btn-primary {
-    background-color: #01232c;
-    border: none;
-    padding: 10px 20px;
-    font-size: 1rem;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-}
-
-.btn-primary:hover {
-    background-color: #264c5f;
-}
-
-.section-title {
-    margin-bottom: 40px;
-    font-size: 2.5rem;
-}
-
-.text-center {
-    text-align: center;
-}
-
-.container-fluid {
-    padding: 0;
-}
-
-.container {
-    padding: 0 15px;
-}
-
-.mt-4, .my-4 {
-    margin-top: 1.5rem !important;
-}
-
-.mb-4, .my-4 {
-    margin-bottom: 1.5rem !important;
-}
-
-.py-5 {
-    padding-top: 3rem !important;
-    padding-bottom: 3rem !important;
-}
-
-.bg-light {
-    background-color: #bed4e2 !important;
 }
 
 .navbar {
-    border-bottom: 4px solid #f49c45 ; 
+    border-bottom: 4px solid #f49c45;
     position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
     z-index: 1000;
+}
+
+.navbar-descubre {
+    border-bottom: 4px solid #f49c45;
+    width: 100%;
+    font-size: large;
+}
+.navbar-organiza {
+    margin-top: -4px;
+    border-bottom: 4px solid #f49c45;
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+    background-color: #ffffff;
+}
+
+.navbar-organiza .nav-link {
+    color: #01232c;
+    position: relative;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-organiza .nav-link:hover {
+    color: #f49d45;
+}
+
+.navbar-organiza .nav-link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: #f49d45;
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-in-out;
+}
+
+.navbar-organiza .nav-link:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
 
 .nav-link {
@@ -156,5 +88,232 @@ body {
 .navbar-nav .nav-item {
     margin-right: 15px;
 }
+.index-section,
+.monumentos-section {
+    position: relative;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    min-height: 50vh;
+}
+
+.index-section .dark-overlay,
+.monumentos-section .dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: hsla(0, 0%, 0%, 0.1);
+}
 
 
+.feature-box {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    padding: 20px;
+    text-align: center;
+}
+
+.feature-box:hover {
+    transform: translateY(-10px);
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.container {
+    padding: 0 15px;
+}
+
+.mt-4, .my-4 {
+    margin-top: 1.5rem !important;
+}
+
+.mb-4, .my-4 {
+    margin-bottom: 1.5rem !important;
+}
+
+.py-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+
+.bg-light {
+    background-color: #bed4e2 !important;
+}
+
+/* estilos para la pagina de los monumentos /que_ver */
+.cardMonument {
+    border: none;
+    border-radius: 15px;
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardMonument:hover {
+    transform: scale(1.05);
+}
+
+.cardMonument-img-top {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.cardMonument-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.cardMonument-text {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+.btn-primary {
+    background-color: #01232c;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #264c5f;
+}
+
+.section-title {
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+}
+
+.accordion-button {
+    background-color: #f49d45;
+    color: #fff;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    border-color: #f49d45;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #e08c3e;
+    color: #fff;
+}
+
+.accordion-body {
+    background-color: #fff;
+    color: #01232c;
+}
+
+.accordion-item {
+    border: none;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.accordion-button::after {
+    filter: invert(1);
+}
+
+.accordion-button:not(.collapsed)::after {
+    filter: invert(0);
+}
+#planning {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+#planning h2 {
+    color: #01232c;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+#planning .list-group-item {
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#planning .list-group-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+#planning h3 {
+    color: #f49d45;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#planning h5 {
+    color: #01232c;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#planning p {
+    color: #6c757d;
+    font-size: 1rem;
+}
+
+#planning ul.list-group {
+    padding: 0;
+    list-style: none;
+}
+#como-llegar {
+    background-color: #e6f7ff;
+    padding: 50px 0;
+}
+
+#como-llegar h2 {
+    color: #01232c;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+#como-llegar h5 {
+    color: #01232c;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#como-llegar p {
+    color: #01232c;
+    font-size: 1rem;
+}
+
+#como-llegar .row {
+    display: flex;
+    justify-content: center;
+}

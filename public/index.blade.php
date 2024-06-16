@@ -18,8 +18,7 @@
             <div class="row justify-content-center">
                 <div class="col-md-8 text-center">
                     <h2 class="display-5">Turismo en Macael</h2>
-                    <p class="lead">El turismo en Macael se centra en su pasado y presente, escrito a mazo y puntero, está ligado al famoso mármol blanco de sus canteras, aprovechado desde el neolítico, y que ha sido utilizado en los más importantes monumentos que componen el Patrimonio histórico-artístico de España como el Teatro Romano de Mérida, la Alhambra de Granada, el Palacio del Escorial, el Palacio Real de Madrid o la Casa Consistorial de Cartagena.
-                    </p>
+                    <p class="lead">El turismo en Macael se centra en su rica historia y tradición ligada al mármol, una piedra que ha sido el pilar de su cultura y economía durante siglos.</p>
                 </div>
             </div>
         </div>
@@ -67,10 +66,7 @@
                     </a>
                 </div>
                 <div class="col-md-4 mb-4">
-                    <a href="/monumento/20">
-                        <img src="https://i.ibb.co/fph45BH/mortero.jpg" class="img-fluid rounded" alt="Galería 2">
-                    </a>
-                    
+                    <img src="https://i.ibb.co/fph45BH/mortero.jpg" class="img-fluid rounded" alt="Galería 2">
                 </div>
                 <div class="col-md-4 mb-4">
                     <img src="https://i.ibb.co/68n3Pwh/foto-marmoris-macael-plazaalmeria-01.jpg" class="img-fluid rounded" alt="Galería 3">
