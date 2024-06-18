@@ -23,7 +23,7 @@ use Illuminate\Support\Facades\Route;
 // Ruta para el index (frontend)
 Route::get('/', function () {
     return view('frontend.index');
-})->name('home');
+})->name('inicio');
 
 // Ruta para el login
 Route::get('/login', [AuthenticatedSessionController::class, 'create'])
@@ -100,3 +100,12 @@ Route::get('/alojamiento/{id}', [AlojamientoController::class, 'mostrarAlojamien
 
 Route::get('/organiza_tu_viaje', [OrganizadorController::class, 'organizaTuViaje'])->name('organiza_tu_viaje');
 Route::get('/descubre_macael', [DescubreMacaelController::class, 'descubreMacael'])->name('descubre_macael');
+
+// rutas para las paginas en ingles
+// Ruta para el index (frontend)
+Route::get('/index_en', function () {
+    return view('/frontend/ingles/index_en');
+})->name('home');
+Route::get('/descubre_macael_en', function () {
+    return view('/frontend/ingles/descubre_macael_en');
+})->name('discover_macael');

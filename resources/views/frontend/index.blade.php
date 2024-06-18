@@ -6,9 +6,9 @@
         <div class="dark-overlay"></div>
         <div class="container d-flex align-items-center justify-content-center" style="min-height: 100vh;">
             <div>
-                <h1 class="display-4">Explora Macael</h1>
+                <h1 class="display-2">Explora Macael</h1>
                 <p class="lead">Descubre la tierra del Mármol</p>
-                <a href="/descubre_macael" class="btn btn-lg btn-primary mt-6">Descubre Más</a>
+                
             </div>
         </div>
     </div>
@@ -62,21 +62,23 @@
                     <h2 class="display-5">Galería</h2>
                 </div>
                 <div class="col-md-4 mb-4">
-                    <a href="/descubre_macael">
-                        <img src="https://i.ibb.co/0G5rsPf/fuente-leones-noche.jpg" class="img-fluid rounded" alt="Galería 1">
+                    <a href="/que_ver">
+                        <img src="https://i.ibb.co/0G5rsPf/fuente-leones-noche.jpg" class="img-fluid rounded gallery-img" alt="Galería 1">
                     </a>
                 </div>
                 <div class="col-md-4 mb-4">
                     <a href="/monumento/20">
-                        <img src="https://i.ibb.co/fph45BH/mortero.jpg" class="img-fluid rounded" alt="Galería 2">
+                        <img src="https://i.ibb.co/fph45BH/mortero.jpg" class="img-fluid rounded gallery-img" alt="Galería 2">
                     </a>
-                    
                 </div>
                 <div class="col-md-4 mb-4">
-                    <img src="https://i.ibb.co/68n3Pwh/foto-marmoris-macael-plazaalmeria-01.jpg" class="img-fluid rounded" alt="Galería 3">
+                    <a href="/que_ver">
+                        <img src="https://i.ibb.co/68n3Pwh/foto-marmoris-macael-plazaalmeria-01.jpg" class="img-fluid rounded gallery-img" alt="Galería 3">
+                    </a>
                 </div>
             </div>
         </div>
     </section>
+    
 </div>
 @endsection

@@ -9,6 +9,7 @@
                     <h2 class="mb-0">Gestión de Monumentos</h2>
                     <a href="{{ route('crear_monumento') }}" class="btn btn-primary">Crear Monumento</a>
                 </div>
+                
                 <div class="card-body">
                     <div class="row">
                         @foreach($Monumentos as $monumento)

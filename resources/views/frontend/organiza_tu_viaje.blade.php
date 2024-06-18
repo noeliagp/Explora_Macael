@@ -17,6 +17,12 @@
             <div class="collapse navbar-collapse justify-content-center">
                 <ul class="navbar-nav">
                     <li class="nav-item">
+                        <a class="nav-link fs-3 fw-bold" href="#como-llegar">Cómo Llegar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fs-3 fw-bold" href="#planning">Itinerario</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link fs-3 fw-bold" href="#actividades">Actividades</a>
                     </li>
                     <li class="nav-item">
@@ -25,9 +31,7 @@
                     <li class="nav-item">
                         <a class="nav-link fs-3 fw-bold" href="#alojamientos">Alojamientos</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link fs-3 fw-bold" href="#como-llegar">Cómo Llegar</a>
-                    </li>
+                    
                 </ul>
             </div>
         </div>
@@ -38,7 +42,7 @@
                 <div class="col-md-8 text-center">
                     <h2 class="display-5">Cómo Llegar</h2>
                     <p class="lead">Las mejores rutas para llegar a Macael desde distintas ciudades.</p>
-                    <img src="https://i.ibb.co/DzSWnMj/Como-llegar.jpg">
+                    <img src="https://i.ibb.co/DzSWnMj/Como-llegar.jpg" class="img-fluid rounded" alt="Cómo Llegar">
                 </div>
             </div>
             <div class="row">
@@ -75,29 +79,63 @@
                             <h5>Mañana</h5>
                             <p>Visita la oficina de turismo en el Museo del Mármol para obtener información y contratar una guía local.</p>
                             <p>Horario: 10:00 - 14:00 y 17:00 - 19:00 (Octubre–Abril); 10:00 - 14:00 y 18:00 - 20:00 (Mayo–Septiembre); domingo por la tarde y lunes cerrado.</p>
+                            <div class="row justify-content-center mb-4">
+                                <div class="col-md-8">
+                                    <img src="https://i.ibb.co/sjNFhfL/image.png" alt="image" class="img-fluid itinerary-img">
+                                </div>
+                            </div>
                         </li>
                         <li class="list-group-item">
                             <h5>Mediodía</h5>
                             <p>Visita al Museo del Mármol de Macael. Conoce la historia del mármol, participa en la plataforma 4D y realiza un taller de artesanía.</p>
                             <p>Duración: 1.5 horas</p>
+                            <div class="row justify-content-center mb-4">
+                                <div class="col-md-8">
+                                    <img src="https://i.ibb.co/VvyvdKk/image.png" alt="Visita al museo del mármol con la posibilidad de probar la gafas de 4d para vivir una experiencia única" class="img-fluid itinerary-img">
+                                </div>
+                            </div>
                         </li>
                         <li class="list-group-item">
                             <h5>Tarde</h5>
                             <p>Conduce hasta el Mirador de Cosentino para disfrutar de una espectacular panorámica de las canteras.</p>
+                            <div class="row justify-content-center mb-4">
+                                <div class="col-md-8">
+                                    <img src="https://i.ibb.co/brF2wNc/image.png" alt="image" class="img-fluid itinerary-img">
+                                </div>
+                            </div>
+                          
                             <p>Opcional: Realiza el Sendero del Mármol (4.6 km, 1.5 horas solo ida) para acceder a las canteras a pie.</p>
+                            <p>Nuevo atractivo turístico en Macael, que viene a completar la oferta existente alrededor de la Cantería del Mármol de Macael: La Cantera Histórica "Hoyos del Tío Amador". 
+                                Declarada Bien de Interés Cultural. En ella se puede apreciar vestigios de su explotación anteriores a la introducción de los adelantos técnicos que llegaron con la industrialización. Dichos vestigios son interpretados a través de un dispositivo de realidad aumentada instalado en el cortijo en el que se refugiaban los canteros (Necesario reservarlo en la Oficina municipal de Información Turística de Macael 950128916).
+                                Se alcanza mediante un camino accesible a personas de movilidad reducida, de 450 mts., que parte del Mirador de Cosentino.
+                                Está integrado en el Sendero del Mármol SL-A170.
+                            </p>
+                            <div class="row justify-content-center mb-4">
+                                <div class="col-md-10">
+                                    <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F370367125763942%2F&show_text=false&width=560&t=0" width="100%" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+                                </div>
+                            </div>
                         </li>
                         <li class="list-group-item">
                             <h5>Comida</h5>
-                            <p>Almuerza en el Restaurante Los Membrives (Avenida Andalucía, 6) y disfruta de la gastronomía tradicional.</p>
+                            <p>Recomendamos para la comida  el Restaurante Los Membrives (Avenida Andalucía, 6) y disfruta de la gastronomía tradicional.</p>
+                            <a href="/donde_comer">Más opciones donde comer</a>
                         </li>
                         <li class="list-group-item">
                             <h5>Atardecer</h5>
                             <p>Pasea por el itinerario urbano Rincones de Macael y descubre los lugares más emblemáticos del pueblo.</p>
+                            <div class="row justify-content-center mb-4">
+                                <div class="col-md-8">
+                                    <img src="https://i.ibb.co/YtTR2Hk/image.png" alt="image" class="img-fluid itinerary-img">
+                                </div>
+                            </div>
+                            <a href="/que ver">Más opciones que visitar</a>
                         </li>
                         <li class="list-group-item">
                             <h5>Noche</h5>
                             <p>Aloja en el Hotel Cero Ocho, situado cerca del Mortero más grande del mundo.</p>
                             <p>Cena tapeando en el Bar la Plaza o la Tapería El Hogar.</p>
+                            <a href="/donde_comer">Más opciones donde comer</a>
                         </li>
                     </ul>
                 </div>
@@ -108,30 +146,43 @@
                             <h5>Mañana</h5>
                             <p>Visita el Yacimiento Arqueológico de Macael Viejo y recorre el sendero circular señalizado.</p>
                             <p>Duración: 2 horas</p>
+                            <p>Para reservar: <a href="https://www.mireservaonline.es/es/servicios/visita-yacimiento-arqueologico-macael-viejo-centro-interpretacion-marmol-macael.aspx">Haz click en este enlace</a></p>
                         </li>
                         <li class="list-group-item">
                             <h5>Mediodía</h5>
                             <p>Visita algunos de los talleres de artesanía y escultura en Macael.</p>
                             <p>Duración: 1.5 horas</p>
+                            <p>Para reservar: <a href="https://www.mireservaonline.es/es/servicios/centro-interpretacion-marmol-talleres-artesania-escultura-macael.aspx">Haz click en este enlace</a></p>
                         </li>
                         <li class="list-group-item">
                             <h5>Comida</h5>
                             <p>Almuerza en el Restaurante la Marmita (C/ Pedro Tapia Espinosa, s/n), una opción elegante con una amplia carta presentada en platos de mármol.</p>
+                            <a href="/donde_comer">Más opciones donde comer</a>
                         </li>
                         <li class="list-group-item">
                             <h5>Tarde</h5>
-                            <p>Disfruta de una visita al Parque de las familias, ideal para niños con muchas atracciones y zonas de juegos.</p>
+                            <p>Disfruta de una visita al Parque de las familias, ideal para niños con muchas atracciones y zonas de juegos, presidido por la escultura de "Pachamama"</p>
+                            <div class="row justify-content-center mb-4">
+                                <div class="col-md-8">
+                                    <img src="https://i.ibb.co/wWNmBPg/image.png" alt="image" class="img-fluid itinerary-img">
+                                </div>
+                            </div>
                         </li>
                         <li class="list-group-item">
                             <h5>Eventos</h5>
                             <p>No te pierdas la Recreación Histórica “Canteros y Caciques en la Lucha por el Mármol” y el Rally “Subida del Mármol” si coinciden con las fechas de tu visita.</p>
+                            <div class="d-flex justify-content-center">
+                                <div class="col-md-10">
+                                    <iframe class="mb-3" width="100%" height="281" src="https://www.youtube.com/embed/HgzInNP6DqU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                            </div>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
-    <section id="activities" class="py-5">
+    <section id="actividades" class="py-5">
         <div class="container">
             <div class="row justify-content-center mb-4">
                 <div class="col-md-8 text-center">
@@ -155,7 +206,7 @@
         </div>
     </section>
 
-    <section id="restaurants" class="py-5 bg-light">
+    <section id="restaurantes" class="py-5 bg-light">
         <div class="container">
             <div class="row justify-content-center mb-4">
                 <div class="col-md-8 text-center">
@@ -166,7 +217,7 @@
             <div class="row">
                 @foreach($Hostelerias as $Hosteleria)
                 <div class="col-12 col-md-6 col-lg-4 mb-4">
-                    <div class="cardMonument h-100 shadow-sm">
+                    <div class="cardMonument-orange h-100 shadow-sm">
                         <img src="{{$Hosteleria->imagen}}" class="cardMonument-img-top" alt="Imagen de {{$Hosteleria->nombre}}">
                         <div class="cardMonument-body d-flex flex-column">
                             <h3 class="cardMonument-title">{{ $Hosteleria->nombre }}</h3>
@@ -179,7 +230,7 @@
         </div>
     </section>
 
-    <section id="accommodations" class="py-5">
+    <section id="alojamientos" class="py-5">
         <div class="container">
             <div class="row justify-content-center mb-4">
                 <div class="col-md-8 text-center">
@@ -203,6 +254,5 @@
         </div>
     </section>
 
-  
 </div>
 @stop

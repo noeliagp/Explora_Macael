@@ -2,9 +2,10 @@
 
 @section('cuerpo')
 <div class="container-fluid">
-    <h2>Gestión de Alojamientos</h2>
-    <a href="{{ route('crear_alojamiento') }}" class="btn btn-primary mb-3">Crear Alojamiento</a>
-    
+    <div class="card-header d-flex justify-content-between align-items-center">
+        <h2>Gestión de Alojamientos</h2>
+        <a href="{{ route('crear_alojamiento') }}" class="btn btn-primary mb-3">Crear Alojamiento</a>
+    </div>
     <div class="table-responsive">
         <table class="table">
             <thead>

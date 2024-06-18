@@ -254,6 +254,9 @@
                                     <br>
                                     Durante todo el trazado y de forma permanente, durante todo el año, hay neumáticos usados de coches para evitar que los vehículos de competición choquen contra las piedras y guarda-raíles.
                                 </div>
+                                <div class="d-flex justify-content-center">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/sF1_0uB5QFg?si=-Q-sI4PNfCPe5mKn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                </div>
                             </div>
                         </div>
                         <div class="accordion-item">
@@ -266,8 +269,11 @@
                                 <div class="accordion-body">
                                     El 7 de Octubre, Macael conmemora a su Patrona, La Virgen del Rosario. Son las fiestas grandes y el pueblo se lanza a la calle para venerar su imagen que ha sido desde tiempos inmemoriales la esperanza y alivio de canteros y trabajadores del mármol.
                                 </div>
+                                <div style="text-align: center;">
+                                    <img src="https://i.ibb.co/RPcQJqc/image.png" alt="Imagen de la Virgen del Rosario" height="500px">
+                                </div>
                             </div>
-                        </div>
+                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingFour">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
@@ -284,7 +290,11 @@
                                     <br>
                                     Misa de acción de gracias y ofrenda floral en el monumento al cantero.
                                 </div>
+                                <div style="text-align: center">
+                                    <img src="https://i.ibb.co/kDYM0Ny/image.png" alt="Imagen de la Virgen del Rosario" height="500px">
+                                </div>
                             </div>
+                           
                         </div>
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingFive">
@@ -344,6 +354,10 @@
                                 <div class="accordion-body">
                                     La Semana Santa en Macael tiene una gran tradición. La procesión más llamativa y vistosa es la del Santo Entierro, el Viernes Santo. Impresiona ver los hachones encendidos en manos de los nazarenos ocultos bajo sus capiruchos, y los costaleros subiendo por las empinadas calles del pueblo en riguroso silencio. El Domingo de Resurrección, a primera hora de la mañana, tiene lugar la procesión del Encuentro. En ella, la Virgen del Rosario recorre una parte del pueblo en busca de las imágenes del Cristo Resucitado y de San Juan, que esperan en las cruces del calvario. En el reencuentro se hace danzar a los tronos al compás de la banda de música, bajo una lluvia de pétalos de rosas.
                                 </div>
+                                <div style="text-align: center">
+                                    <img src=" https://i.ibb.co/TWRvKTF/image.png" alt="Imagen de la Virgen del Rosario" height="500px">
+                                </div>
+                               
                             </div>
                         </div>
                     </div>
@@ -366,13 +380,13 @@
                         <div class="col-md-6">
                             <p> En los fríos días del invierno, cuando la lluvia hace su aparición, es costumbre cocinar migas de harina o de pan, acompañadas con caldo de pimentón, pimientos y tomates secos fritos, pescado y tajadas, todo ello regado con un buen vino de la tierra. También se consumen los pucheros, cocinados en sus diferentes formas: trigo, calabaza e hinojo, que preparan el cuerpo para un duro día de trabajo.
                             </p>
-                            <img src='https://i.postimg.cc/j2RbNjWy/hornazo-1.jpg' class="img-fluid rounded" alt='hornazo-1' style="max-width: 50%;">
+                            <img src='https://i.ibb.co/LhpQMys/image.png' class="img-fluid rounded" alt='hornazo-1' style="max-width: 50%;">
                     
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 ">
                             <p> En Navidad se elabora la repostería típica de estas fechas, las tortas de chicharrones y manteca, el pan de aceite, los suspiros y los mantecados.
                             </p>
-                            <img src='https://i.postimg.cc/j2RbNjWy/hornazo-1.jpg' class="img-fluid rounded" alt='hornazo-1' style="max-width: 50%;">
+                            <img src='https://i.ibb.co/S7Wbtjy/image.png' class="img-fluid rounded" alt='hornazo-1' style="max-width: 50%;">
                     
                         </div>
                     </div>
@@ -380,12 +394,12 @@
                         <div class="col-md-6">
                             <p>Con la llegada de la primavera y coincidiendo con Semana Santa, los condimentos se adaptan a la prohibición de la carne y a los productos vegetales que afloran de la vega. Se preparan los potajes de cuaresma con albóndigas de bacalao y como postre, los roscos fritos y los buñuelos con anís.
                             </p>
-                            <img src='https://i.postimg.cc/j2RbNjWy/hornazo-1.jpg' class="img-fluid rounded" alt='hornazo-1' style="max-width: 50%;">
+                            <img src='https://i.ibb.co/SysXmsh/image.png' class="img-fluid rounded" alt='hornazo-1' style="max-width: 50%;">
                     
                         </div>
                         <div class="col-md-6">
                             <p>En los calurosos días de verano, son refrescantes los gazpachos y ensaladas del tiempo. Además, son características las fritadas de conejo o pollo y las gachas con caldo de pescado, aprovechando la temporada de mayor esplendor de las verduras.</p>
-                            <img src='https://i.postimg.cc/j2RbNjWy/hornazo-1.jpg' class="img-fluid rounded" alt='hornazo-1' style="max-width: 50%;">
+                            <img src='https://i.ibb.co/Qc8CB4c/image.png' class="img-fluid rounded" alt='hornazo-1' style="max-width: 50%;">
                     
                         </div>
                     <div class="text-center mt-4">

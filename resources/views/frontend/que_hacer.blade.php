@@ -29,7 +29,6 @@
                             <h3 class="cardMonument-title">{{ $Actividad->nombre }}</h3>
                             <p class="cardMonument-text">Precio: {{$Actividad->precio}}</p>
                             <p class="cardMonument-text">Duración: {{$Actividad->duracion}}</p>
-                            <p class="cardMonument-text">Descripción: {{ \Illuminate\Support\Str::limit($Actividad->descripcion, 10, '...')}}</p>
                             <a href="{{ url('actividad/'.$Actividad->id) }}" class="btn btn-primary mt-auto">Ver más detalles</a>
                         </div>
                     </div>

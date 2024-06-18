@@ -2,9 +2,10 @@
 
 @section('cuerpo')
 <div class="container-fluid">
-    <h2>Gestión de Hosteleria</h2>
-    <a href="{{ route('crear_hosteleria') }}" class="btn btn-primary mb-3">Crear Bar - Restaurante</a>
-    
+    <div class="card-header d-flex justify-content-between align-items-center">
+        <h2 class="mb-0">Gestión de Hosteleria</h2>
+        <a href="{{ route('crear_hosteleria') }}" class="btn btn-primary">Crear Bares/Restaurantes</a>
+    </div>
     <div class="table-responsive">
         <table class="table">
             <thead>

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     @vite(['resources/css/login.css'])
+   
 </head>
 <body>
     <div class="login-container">
@@ -18,9 +19,12 @@
                 <label for="email">Email</label>
                 <input type="email" id="email" name="email" required>
             </div>
-            <div>
-                <label for="password">Contraseña</label>
+            
+            <div class="password-container">
+                
+                <label for="password">Contraseña<button type="button" class="show-password" onclick="togglePassword()" style="width: 50px">👀</button></label>
                 <input type="password" id="password" name="password" required>
+                
             </div>
             <div>
                 <button type="submit">Entrar</button>
@@ -28,13 +32,24 @@
             @if($errors->any())
                 <div class="error-messages">
                     <ul>
-                        @foreach ($errors->all() as $error)
-                            <li>{{ $error }}</li>
-                        @endforeach
+                        <li>Los datos insertados son incorrectos, vuelve a intentarlo.</li>
                     </ul>
                 </div>
             @endif
         </form>
     </div>
+    <script>
+        function togglePassword() {
+            const passwordField = document.getElementById('password');
+            const showPasswordButton = document.querySelector('.show-password');
+            if (passwordField.type === 'password') {
+                passwordField.type = 'text';
+                showPasswordButton.textContent = '🔒';
+            } else {
+                passwordField.type = 'password';
+                showPasswordButton.textContent = '👀';
+            }
+        }
+    </script>
 </body>
 </html>
